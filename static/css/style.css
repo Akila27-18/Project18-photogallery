@@ -1,0 +1,20 @@
+body {
+  background: linear-gradient(to right, #f0f8ff, #e6ffe6);
+}
+.navbar {
+  background: linear-gradient(to right, #00b4db, #0083b0);
+}
+.colorful-box {
+  background: #fffbe6;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  .display-5 {
+    font-size: 1.75rem;
+  }
+}
